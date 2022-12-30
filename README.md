@@ -1,8 +1,5 @@
-# Curso de git - Infotec
+# Curso de git - Infotec <img align="right" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMgceTjs88HrN0zhAJMY8Mr6S1L1yA1FHErtIJjqlU&s" />
 
-<div>
-    <img align="center" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMgceTjs88HrN0zhAJMY8Mr6S1L1yA1FHErtIJjqlU&s" />
-</div>
 
 <div>
     <!-- <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version 1.0.0"> -->
