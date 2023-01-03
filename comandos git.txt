@@ -1,0 +1,91 @@
+git fetch (actualiza repo)
+git add . (agregar todos los cambios)
+git commit -m"aqui va el Mesnaje del cambio que realizaste"
+git status (te marca en rojo los componentes modificados )
+git checkout (para cambiarte de rama)
+git branch (te muestra la rama en el que esta posicionado)
+git pull (para bajar los cambios del repositorio)
+git push (para subir los cambios a la rama donde esta tu repo)
+
+//-------------------
+Subir cambios
+-------------------//                                                                    
+git init (inicia git)
+git add . (agregararchivos)
+git commit -m "first commit" (comentario de cmbios)
+git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git(repositorio remoto)
+git push -u origin master (subir cambios) 
+
+//-------------------
+Configuracion
+-------------------//     
+$ git --version (version de git)
+$ git config --global user.name "Ramsess Santoyo" (nombre de usuario)
+$ git config --global user.email ramsesssantoyo66@gmail.com (correo)
+$ git config --global core.editor "code --wait" (editor de codigo predeterminado)
+$ git config --global -e (iniciar editor para ver la config)
+$ git config --global core.autocrlf true (saltos de linea config)
+$ git config --list (ver tus configuraciones de git)
+//-------------------
+Recuperar archivo eliminado
+-------------------// 
+git restore nombredel.archivo
+
+
+//-------------------
+Estatus avanzado
+-------------------// 
+
+git status -s (estatus completo)
+
+
+//-------------------
+Trabajar en ramas
+-------------------// 
+git branch (te muestra la rama en el que esta posicionado)
+git checkout nombre-de-rama (para cambiarte de rama)
+git checkout -b nombre-de-la-rama (para crear y cambiarte de rama)
+git log --oneline (para mostrar el status de la rama)   
+git merge nombrederama (traer los archivos de la rama a la rama principal)  
+git branch nombre-crear-rama(crear rama)
+git branch -d nombre-borrar-rama(borrar rama)
+git merge nombre-de-rama(fuisionar ramas)
+git switch -c "nombre-rama"(trabajar con codigo separado en otra rama)
+
+//-------------------
+Versionar
+-------------------//
+git tag -a v1.0.1 -m "Versión 1.0.1"
+
+
+//-------------------
+Bajar Repo
+-------------------//                              
+git init
+git remote add Origin git://github.com/cmcculloh/repo.git
+git fetch --all
+git pull Origin master
+
+O
+
+git clone git://github.com/cmcculloh/repo.git
+
+//-------------------
+Ver las confirmaciones
+-------------------// 
+git log
+git log --author="John Doe" (para ver las confirmaciones por autor)
+
+git log: Muestra el historial de confirmaciones (commits) del repositorio. La salida incluye información como el autor del commit, la fecha y el mensaje del commit.
+
+git log --oneline: Muestra el historial de confirmaciones en una sola línea por commit.
+
+git log --author="John Doe": Filtra los commits por autor y muestra solo los commits realizados por el autor especificado.
+
+git log --since=2022-01-01: Filtra los commits por fecha y muestra solo los commits realizados después de la fecha especificada.
+
+git log --until=2022-01-01: Filtra los commits por fecha y muestra solo los commits realizados antes de la fecha especificada.
+
+git log --grep="bug": Filtra los commits por palabra clave y muestra solo los commits que contienen la palabra especificada en el mensaje del commit.
+
+git log --graph: Muestra el historial de confirmaciones con un gráfico de ramas que muestra cómo se han fusionado los commits a lo largo del tiempo.
