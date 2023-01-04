@@ -8,3 +8,6 @@ Versión 1.0.2
 
 Areglando Bug 
 BUG-LÍNEA-001
+
+Versionando a 
+Versión 1.0.3
