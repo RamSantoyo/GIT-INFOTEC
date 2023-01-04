@@ -51,6 +51,8 @@ git branch nombre-crear-rama(crear rama)
 git branch -d nombre-borrar-rama(borrar rama)
 git merge nombre-de-rama(fuisionar ramas)
 git switch -c "nombre-rama"(trabajar con codigo separado en otra rama)
+git push --set-upstream origin <NOMBRE DE LA RAMA>(Este crea una rama en el repositorio trabajando por individual)
+
 
 //-------------------
 Versionar
