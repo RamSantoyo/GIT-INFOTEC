@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 02/01/2023
 Versión 1.0.1
 
@@ -8,3 +9,18 @@ Versión 1.0.2
 
 Areglando Bug 
 BUG-LÍNEA-001
+=======
+02/01/2023
+Versión 1.0.1
+
+Creando ramas 
+
+Versionando a 
+Versión 1.0.2
+
+solucionando bug 
+BUG-LÍNEA-001
+
+modificacion en
+HOTFIX-LÍNEA-002
+>>>>>>> HOTFIX-LÍNEA-002
