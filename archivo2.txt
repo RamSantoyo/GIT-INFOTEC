@@ -4,7 +4,6 @@ Modificaciones en Git
 =====================
 
 
-
 02/01/2023
 Versión 1.0.1
 
